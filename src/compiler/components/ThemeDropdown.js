@@ -8,7 +8,6 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 
-
 const ThemeDropdown = ({ handleThemeChange, theme }) => {
   const [open, setOpen] = useState(false);
 
@@ -30,7 +29,6 @@ const ThemeDropdown = ({ handleThemeChange, theme }) => {
 
   return (
     <>
-      
       <Select
         labelId="theme-dropdown-label"
         id="theme-dropdown"
@@ -49,8 +47,5 @@ const ThemeDropdown = ({ handleThemeChange, theme }) => {
     </>
   );
 };
-
-
-
 
 export default ThemeDropdown;
